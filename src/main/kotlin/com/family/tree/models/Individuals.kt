@@ -12,7 +12,7 @@ data class Individuals (
         var primaryId: UUID = UUID.fromString("ce3c9d55-dd73-4be6-80dc-77705ee14277"),
         var firstName: String = "John",
         var lastName: String = "Smith",
-        var gender: String = "Male",
+        var gender: String = "M",
         var dateOfBirth: LocalDate = LocalDate.parse("1980-01-03"),
         var placeOfBirth: String = "Germany"
 )
